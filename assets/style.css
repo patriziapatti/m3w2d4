@@ -1,0 +1,50 @@
+body{
+    background-color:aliceblue
+}
+
+.navbar{
+    background-color: white;
+    font-weight: bold;
+}
+
+.linkNav{
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    text-decoration: none;
+    background: 0 0;
+    border: 0;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+nav ul li a{
+    color: black
+}
+
+#visitBudapest{
+    align-content: center;
+}
+
+#summer > div > div > div > div{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+#diconodinoi > div > div > div > div > img{
+    border-radius: 50%;
+}
+
+footer{
+    height: 80px;
+    display: flex;
+    align-items:end;
+    justify-content: space-between;
+    border-top: solid gray 1px;
+}
+
+#navDelFooter ul li{
+    display: inline;
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 40px;
+}
